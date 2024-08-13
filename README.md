@@ -46,7 +46,7 @@ To fine-tune stable signature model, you can execute stable_signature_finetune.s
 To evaluate image quality and bit accuracy, you can execute metrics_stable_signature.sh as follows:
 
 ```bash
-# fine tune
+# evaluate
 . ./ metrics_stable_signature.sh
 ```
 

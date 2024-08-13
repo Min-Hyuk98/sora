@@ -22,15 +22,6 @@ With Open-Sora, our goal is to foster innovation, creativity, and inclusivity wi
 
 [[中文文档](/docs/zh_CN/README.md)] [[潞晨云](https://cloud.luchentech.com/)|[OpenSora镜像](https://cloud.luchentech.com/doc/docs/image/open-sora/)|[视频教程](https://www.bilibili.com/video/BV1ow4m1e7PX/?vd_source=c6b752764cd36ff0e535a768e35d98d2)]
 
-## Inference with Separated text encoder
-
-We separate the text encoder to reduce the memory usage.
-To inference the watemarked fine-tuned model, you can execute inference_watermarked.sh as follows:
-
-```bash
-# inference
-. ./ inference_Watermarked.sh
-```
 
 ## Fine tune watermark model 'Stable Signature'
 
@@ -39,6 +30,16 @@ To fine-tune stable signature model, you can execute stable_signature_finetune.s
 ```bash
 # fine tune
 . ./ stable_signature_finetune.sh
+```
+
+## Inference with Separated text encoder
+
+We separate the text encoder to reduce the memory usage.
+To inference the watemarked fine-tuned model, you can execute inference_watermarked.sh as follows:
+
+```bash
+# inference
+. ./ inference_Watermarked.sh
 ```
 
 ## Metrics
